@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <meta charset = 'utf-8'>
+      <title>my website: home</title>
+    </head>
+    <body>
+      <h1 class = 'centered'>navigation</h1>
+      <div class = 'centered'>
+        <br>
+        <input
+          type="button"
+          class = 'big-button'
+          value = "go to 'all about me'"
+          id = 'home-about_me'>
+        </input>
+        <script>
+          let button = document.getElementById('home-about_me')
+          button.onclick = () => {redirect_to_about_me()}
+          function redirect_to_about_me() {
+            window.location.href = "D:/CS50/CS50W/project0/page2.html" //// TODO: add redirect code here
+          }
+        </script>
+      </div>
+    </body>
+</html>
