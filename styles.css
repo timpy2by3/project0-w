@@ -1,0 +1,26 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #404040;
+}
+
+.centered {
+  text-align: center;
+}
+
+.big-button {
+  padding: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+#home-about_me {
+    background-color: #8b9983;
+}
+
+#about_me-home {
+  background-color: #998b83;
+}
