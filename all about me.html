@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <meta charset = 'utf-8'>
+      <title>my website: all about me</title>
+    </head>
+    <body>
+      <h1 class = 'centered'>all about me</h1>
+      <div class = 'centered'>
+        <br>
+        <input
+          type="button"
+          class = 'big-button'
+          value = "go to 'home'"
+          id = 'about_me-home'>
+        </input>
+        <script>
+          let button = document.getElementById('about_me-home')
+          button.onclick = () => {redirect_to_home()}
+          function redirect_to_home() {
+            window.location.href = "index.html"
+          }
+        </script>
+      </div>
+      <ul>
+
+      </ul>
+    </body>
+</html>
