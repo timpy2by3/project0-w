@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <meta charset = 'utf-8'>
+      <title>my website: photography</title>
+    </head>
+    <body>
+      <h1 class = 'centered'>photography</h1>
+      <div class = 'centered'>
+        <br>
+        <input
+          type="button"
+          class = 'big-button'
+          value = "go to 'home'"
+          id = 'about_me-home'>
+        </input>
+        <script>
+          let button = document.getElementById('about_me-home')
+          button.onclick = () => {redirect_to_home()}
+          function redirect_to_home() {
+            window.location.href = "index.html"
+          }
+        </script>
+        <br>
+      </div>
+      <div class = "indented-one">
+        <h3>photos of sunsets</h3>
+      </div>
+    </body>
+</html>
