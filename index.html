@@ -14,13 +14,22 @@
           type="button"
           class = 'big-button'
           value = "go to 'all about me'"
-          id = 'home-about_me'>
-        </input>
+          id = 'home-about_me'></input>
+        <input
+          type="button"
+          class = 'big-button'
+          value = "go to 'photography'"
+          id = 'home-photography'></input>
         <script>
-          let button = document.getElementById('home-about_me')
-          button.onclick = () => {redirect_to_about_me()}
+          let button1 = document.getElementById('home-about_me')
+          button1.onclick = () => {redirect_to_about_me()}
           function redirect_to_about_me() {
-            window.location.href = "all about me.html"
+            window.location.href = "all_about_me.html"
+          }
+          let button2 = document.getElementById('home-photography')
+          button2.onclick = () => {redirect_to_photography()}
+          function redirect_to_photography() {
+            window.location.href = 'photography.html'
           }
         </script>
       </div>

@@ -1,9 +1,10 @@
 body {
   font-family: Verdana, Helvetica, sans-serif;
+  color: #404040;
 }
 
-h1 {
-  color: #404040;
+img {
+  width: 45%;
 }
 
 .centered {
@@ -17,9 +18,28 @@ h1 {
   font-size: 16px;
 }
 
-button:hover {
-  background-color: transparent;
-  color: #404040;
+.indented-one {
+  padding-left: 3%;
+}
+
+.img-left {
+  float: left;
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.img-right {
+  float: right;
+  padding-right: 3%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+
+.img-last {
+  display: block;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 #home-about_me {
@@ -28,4 +48,8 @@ button:hover {
 
 #about_me-home {
   background-color: #998b83;
+}
+
+#home-photography {
+  background-color: #9a1111;
 }
