@@ -14,24 +14,45 @@
           type="button"
           class = 'big-button'
           value = "go to 'all about me'"
-          id = 'home-about_me'></input>
+          id = 'about_me'></input>
         <input
           type="button"
           class = 'big-button'
           value = "go to 'photography'"
-          id = 'home-photography'></input>
+          id = 'photography'></input>
+          <input
+            type="button"
+            class = 'big-button'
+            value = "go to 'recipes'"
+            id = 'recipes'></input>
         <script>
-          let button1 = document.getElementById('home-about_me')
-          button1.onclick = () => {redirect_to_about_me()}
-          function redirect_to_about_me() {
-            window.location.href = "all_about_me.html"
-          }
-          let button2 = document.getElementById('home-photography')
-          button2.onclick = () => {redirect_to_photography()}
-          function redirect_to_photography() {
-            window.location.href = 'photography.html'
+          let button1 = document.getElementById('about_me')
+          button1.onclick = () => {redirect('all_about_me.html')}
+          let button2 = document.getElementById('photography')
+          button2.onclick = () => {redirect('photography.html')}
+          let button3 = document.getElementById('recipes')
+          button3.onclick = () => {redirect('recipes.html')}
+          function redirect (filename) {
+            window.location.href = filename
           }
         </script>
+      </div>
+      <div class = 'indented-one'>
+        <h3>what's in each page</h3>
+        <table>
+          <tr>
+            <th>index</th>
+            <th>all about me</th>
+            <th>photography</th>
+            <th>recipes</th>
+          </tr>
+          <tr>
+            <td>navigation</td>
+            <td>personal information</td>
+            <td>pictures</td>
+            <td>how i like to make food</td>
+          </tr>
+        </table>
       </div>
     </body>
 </html>

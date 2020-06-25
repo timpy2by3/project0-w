@@ -7,6 +7,19 @@ img {
   width: 45%;
 }
 
+table {
+  width: 45%
+}
+
+td, th {
+  text-align: left;
+  padding: 0.5%;
+}
+
+td:first-of-type, th:first-of-type {
+  padding: 0%;
+}
+
 .centered {
   text-align: center;
 }
@@ -42,14 +55,18 @@ img {
   margin-right: 25%;
 }
 
-#home-about_me {
+#home {
+  background-color: #8faab3;
+}
+
+#about_me {
     background-color: #8b9983;
 }
 
-#about_me-home {
+#photography {
   background-color: #998b83;
 }
 
-#home-photography {
-  background-color: #9a1111;
+#recipes {
+  background-color: #99838b;
 }
